@@ -38,6 +38,8 @@ public class Main {
       if (number == 1) {
          System.out.println("Obviosuly not!");
       }
+
+      // every "if block" is like starting a new line of questioning
       if (number == 2) {
          System.out.println("I think you need some help!");
 
@@ -64,7 +66,21 @@ public class Main {
       }
       if (number == 8) {
          System.out.println("My sources say yes.");
-
       }
+
+      // TWO-WAY SELECTION: IF block coupled with an ELSE block
+      // is like "if this is true, do something" OTHERWISE, "do something else"
+      int myAge = 19;
+      // BOOLEAN EXPRESSIONS here is "myAge >= 17"
+      if (myAge >= 17) {
+         System.out.println("You can get your license in NY!");
+      }
+      // else is coupled with the if statement above
+      // so you do NOT need to specify a CONDITION/EXPRESSION
+      else {
+         System.out.println("You're too young to drive in NY");
+      }
+      
+
    }
 }
